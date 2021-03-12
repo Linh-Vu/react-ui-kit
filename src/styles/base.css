@@ -1,0 +1,21 @@
+:root {
+  --primary: #274853;
+  --secondary: #2a5e6a;
+  --third: #327679;
+  --four: #349482;
+  --fif: #47ab8f;
+  --six: #8fc2b9;
+
+  --border-color: var(--fif);
+
+  --white-base: rgb(255, 255, 255);
+  --black-base: rgb(0, 0, 0);
+
+  --border-radius: 2px;
+  --font-size-base: 14px;
+  --border-base: solid 1px var(--border-color);
+
+  --font-base: 'Open Sans', sans-serif;
+  --spacing-base: 12px;
+  --line-hieght-base: 1.45;
+}
