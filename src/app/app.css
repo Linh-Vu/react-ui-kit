@@ -12,3 +12,12 @@ body {
 button, input, textarea, select {
   outline: none;
 }
+.icon-avatar {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+button.icon {
+  background-color: none;
+  border: none;
+}

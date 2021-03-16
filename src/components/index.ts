@@ -1,3 +1,3 @@
 // export all base component here
-
-export {};
+import Card from "./Card"
+export { Card };
