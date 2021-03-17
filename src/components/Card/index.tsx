@@ -5,7 +5,6 @@ interface Props extends React.ComponentProps<'div'> {
   title?: string,
   footer?: React.ReactNode,
   extra?: React.ReactNode,
-  body?: React.ReactNode,
   cover?: React.ReactNode,
   children?: React.ReactNode,
   actions?: any,
@@ -30,7 +29,7 @@ export const Meta: React.FC<PropsMeta> = ({ title, discription, avatar }) => (
   </MetaCard>
 );
 const Card: React.FC<Props> = (props) => {
-  const { title, extra, body, cover, children, actions } = props;
+  const { title, extra, cover, children, actions } = props;
   console.log('render card',actions);
   
   return (
@@ -39,7 +38,6 @@ const Card: React.FC<Props> = (props) => {
       <div className="card-title"><h4>{title}</h4> {extra}</div>
       
       <div className="card-body">
-        {body}
         {children}
       </div>
       
